@@ -5,7 +5,7 @@ export default function Hero() { // h - acts as a function, H - acts as a compon
   return (
     <div className=''>
         <h1 className='text-5xl text-[#ccffff] font-bold font-bricolage'>Random Password Generator</h1>
-        <p className='py-5 font-mono text-[#ccffff]'>Create strong and secure passwords to keep your account safe online.</p>
+        <p className='py-5 font-mono text-[#ccffff] text-l'>Create strong and secure passwords to keep your account safe online.</p>
         <div className='flex justify-center gap-5'>
         <div className='relative'>
         <input type="text"className='w-96 border py-2 rounded bg-[#000f1f] text-white p-2'/>
@@ -18,8 +18,8 @@ export default function Hero() { // h - acts as a function, H - acts as a compon
         <input type="range" className='w-64'/>
         <LuPlus className='text-white p-2 border rounded-full border-[#26a3d9] text-4xl hover:bg-[#26a3d9] hover:text-black duration-200' />
         </div>
-        <p className='text-[#ccffff] font-mono'>Characters used: </p>
-        <div className='flex justify-center gap-6'>
+        <p className='text-[#ccffff] font-mono text-[20px] mt-2 mb-2'>Characters used: </p>
+        <div className='flex justify-center gap-10'>
         <div className='flex gap-2 text-white'>
         <input type="checkbox" className=''/>
         <p>ABC</p>
