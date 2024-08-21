@@ -5,8 +5,7 @@ import './App.css'
 import Hero from './components/hero' 
 
 function App() {
-  return <div>
-
+  return <div className='flex items-center justify-center h-screen'>
     <Hero/>
   </div>
 }
